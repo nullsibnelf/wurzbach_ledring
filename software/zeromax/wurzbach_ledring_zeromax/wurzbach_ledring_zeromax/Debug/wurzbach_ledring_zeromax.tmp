@@ -1,0 +1,88 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATtiny13"</DEVICE>
+ <WORKING_DIR>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.2.118\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATtiny_DFP\1.2.118\avrasm\inc\tn13def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\Debug\wurzbach_ledring_zeromax.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>wurzbach_ledring_zeromax.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>wurzbach_ledring_zeromax.map</FILE>
+  <FILE>wurzbach_ledring_zeromax.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>38</LINE></init>
+  <pause><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>325</LINE></pause>
+  <main><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>65</LINE></main>
+  <get_io><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>81</LINE></get_io>
+  <ad_wandlung><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>189</LINE></ad_wandlung>
+  <change_color><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>290</LINE></change_color>
+  <get_io_weiter_1><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>90</LINE></get_io_weiter_1>
+  <get_io_weiter_2><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>96</LINE></get_io_weiter_2>
+  <get_io_weiter_3><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>101</LINE></get_io_weiter_3>
+  <color_8_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>107</LINE></color_8_hoeher>
+  <color_8_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>111</LINE></color_8_weiter>
+  <color_7_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>117</LINE></color_7_hoeher>
+  <color_7_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>121</LINE></color_7_weiter>
+  <color_6_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>127</LINE></color_6_hoeher>
+  <color_6_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>131</LINE></color_6_weiter>
+  <color_5_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>137</LINE></color_5_hoeher>
+  <color_5_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>141</LINE></color_5_weiter>
+  <color_4_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>147</LINE></color_4_hoeher>
+  <color_4_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>151</LINE></color_4_weiter>
+  <color_3_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>157</LINE></color_3_hoeher>
+  <color_3_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>161</LINE></color_3_weiter>
+  <color_2_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>167</LINE></color_2_hoeher>
+  <color_2_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>171</LINE></color_2_weiter>
+  <color_1_hoeher><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>177</LINE></color_1_hoeher>
+  <color_1_weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>181</LINE></color_1_weiter>
+  <not_to_great><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>204</LINE></not_to_great>
+  <hoeher_11><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>209</LINE></hoeher_11>
+  <weiter_11><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>211</LINE></weiter_11>
+  <hoeher_10><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>216</LINE></hoeher_10>
+  <weiter_10><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>218</LINE></weiter_10>
+  <hoeher_9><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>223</LINE></hoeher_9>
+  <weiter_9><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>225</LINE></weiter_9>
+  <hoeher_8><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>230</LINE></hoeher_8>
+  <weiter_8><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>232</LINE></weiter_8>
+  <hoeher_7><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>237</LINE></hoeher_7>
+  <weiter_7><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>239</LINE></weiter_7>
+  <hoeher_6><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>244</LINE></hoeher_6>
+  <weiter_6><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>246</LINE></weiter_6>
+  <hoeher_5><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>251</LINE></hoeher_5>
+  <weiter_5><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>253</LINE></weiter_5>
+  <hoeher_4><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>258</LINE></hoeher_4>
+  <weiter_4><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>260</LINE></weiter_4>
+  <hoeher_3><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>265</LINE></hoeher_3>
+  <weiter_3><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>267</LINE></weiter_3>
+  <hoeher_2><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>272</LINE></hoeher_2>
+  <weiter_2><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>274</LINE></weiter_2>
+  <hoeher_1><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>279</LINE></hoeher_1>
+  <weiter_1><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>281</LINE></weiter_1>
+  <weiter><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>295</LINE></weiter>
+  <led_inaktiv_loop><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>299</LINE></led_inaktiv_loop>
+  <led_inaktiv_loop_end><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>305</LINE></led_inaktiv_loop_end>
+  <send_blank><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>409</LINE></send_blank>
+  <led_aktiv_loop><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>308</LINE></led_aktiv_loop>
+  <led_aktiv_loop_end><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>314</LINE></led_aktiv_loop_end>
+  <send_color><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>370</LINE></send_color>
+  <pausenloop><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>327</LINE></pausenloop>
+  <high_><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>336</LINE></high_>
+  <low_><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>353</LINE></low_>
+  <send_loop1><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>373</LINE></send_loop1>
+  <send_loop2><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>384</LINE></send_loop2>
+  <send_loop3><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>395</LINE></send_loop3>
+  <send_loop><FILE>C:\Users\Ironman\Documents\Atmel Studio\7.0\wurzbach_ledring_zeromax\wurzbach_ledring_zeromax\main.asm</FILE><LINE>412</LINE></send_loop>
+ </LABELS>
+</ASSEMBLER_INFO>
