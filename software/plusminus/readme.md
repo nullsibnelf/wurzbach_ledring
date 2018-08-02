@@ -3,5 +3,4 @@ With 3 IO's you can switch between 8 different color-settings during operation.
 
 
 02.08.2018
-Copy of zeromax uploaded.
-Has to be reworked for middle-orientation.
+Released
