@@ -67,8 +67,6 @@ main:
 	rcall	get_io
 
 	rcall	ad_wandlung
-				
-	rcall	change_color
 
 	rjmp	main
 
@@ -188,8 +186,8 @@ color_1_weiter:
 
 ad_wandlung:
 
-	in r25, ADCL	// ADCL
-	in r23, ADCH	// ADCH	
+	in r25, ADCL		// ADCL
+	in r23, ADCH		// ADCH	
 	lsr r25
 	lsr r25
 	lsr r25
@@ -200,84 +198,89 @@ ad_wandlung:
 	mov r24, r23		// zu große Werte abfangen
 	cpi r23, 0xFB
 	brsh not_to_great
-	add r24, r25
+	add r24, r25		// Flackern dazurechnen
 not_to_great:
 
 	cpi r24, 254		// Grenzwert 11te LED
 	brlo hoeher_11
+	rcall send_color
 	rjmp weiter_11
 hoeher_11:
-	ldi r23, 0x0A
+	rcall send_blank
 weiter_11:
 
 	cpi r24, 230		// Grenzwert 10te LED
 	brlo hoeher_10
+	rcall send_color
 	rjmp weiter_10
 hoeher_10:
-	ldi r23, 0x09
+	rcall send_blank
 weiter_10:
 		
-	cpi r24, 204
+	cpi r24, 204		// Grenzwert  9te LED
 	brlo hoeher_9
+	rcall send_color
 	rjmp weiter_9
 hoeher_9:
-	ldi r23, 0x08
+	rcall send_blank
 weiter_9:
 	
-	cpi r24, 179
+	cpi r24, 179		// Grenzwert  8te LED
 	brlo hoeher_8
+	rcall send_color
 	rjmp weiter_8
 hoeher_8:
-	ldi r23, 0x07
+	rcall send_blank
 weiter_8:
 	
-	cpi r24, 153
+	cpi r24, 153		// Grenzwert  7te LED
 	brlo hoeher_7
+	rcall send_color
 	rjmp weiter_7
 hoeher_7:
-	ldi r23, 0x06
+	rcall send_blank
 weiter_7:
 	
-	cpi r24, 128
-	brlo hoeher_6
-	rjmp weiter_6
-hoeher_6:
-	ldi r23, 0x05
-weiter_6:
-	
-	cpi r24, 102
+	rcall send_color	// Mitten - LED
+
+	cpi r24, 102		// Grenzwert  5te LED
 	brlo hoeher_5
+	rcall send_blank
 	rjmp weiter_5
 hoeher_5:
-	ldi r23, 0x04
+	rcall send_color
 weiter_5:
 	
-	cpi r24, 77
+	cpi r24, 77			// Grenzwert  4te LED
 	brlo hoeher_4
+	rcall send_blank
 	rjmp weiter_4
 hoeher_4:
-	ldi r23, 0x03
+	rcall send_color
 weiter_4:
 	
-	cpi r24, 51
+	cpi r24, 51			// Grenzwert  3te LED
 	brlo hoeher_3
+	rcall send_blank
 	rjmp weiter_3
 hoeher_3:
-	ldi r23, 0x02
+	rcall send_color
 weiter_3:
 	
-	cpi r24, 26
+	cpi r24, 26			// Grenzwert  2te LED
 	brlo hoeher_2
+	rcall send_blank
 	rjmp weiter_2
 hoeher_2:
-	ldi r23, 0x01
+	rcall send_color
 weiter_2:
 
-	cpi r24, 1
+	cpi r24, 1			// Grenzwert  1te LED
 	brlo hoeher_1
+	rcall send_blank
 	rjmp weiter_1
 hoeher_1:
-	ldi r23, 0x00
+	rcall send_color
 weiter_1:
 
 	ret
@@ -285,45 +288,10 @@ weiter_1:
 
 
 // ---------------------------------------
-// neue Farbe setzen
-// ---------------------------------------
-change_color:
-	cpi		r23, 0x0C
-	brlo	weiter
-	ldi		r23, 0x0B			// Anzahl LEDs -> 0x0B sind 11
-
-weiter:
-
-	ldi		r19, 0x0B			// Anzahl LEDs -> 0x0B sind 11
-	sub		r19, r23
-led_inaktiv_loop:
-	cpi		r19, 0x00
-	breq	led_inaktiv_loop_end
-	rcall	send_blank			// led aus
-	dec		r19
-	rjmp	led_inaktiv_loop
-led_inaktiv_loop_end:
-
-	mov		r19, r23
-led_aktiv_loop:
-	cpi		r19, 0x00
-	breq	led_aktiv_loop_end
-	rcall	send_color
-	dec		r19
-	rjmp	led_aktiv_loop
-led_aktiv_loop_end:
-	
-
-	rcall	pause
-	rcall	pause
-	ret
-
-
-// ---------------------------------------
 // Pause für Übernahme
 // ---------------------------------------
 pause:
-	ldi		r16, 0xC0			// 50µs Pause für Übernahme der gesendeten Werte
+	ldi		r16, 0xC0	// 50µs Pause für Übernahme der gesendeten Werte
 pausenloop:
 	dec		r16
 	brne	pausenloop
